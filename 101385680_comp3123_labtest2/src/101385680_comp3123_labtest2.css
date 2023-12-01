@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Arial', sans-serif; 
+  background-color: #1e1e1e; 
+  text-shadow: #005c68;
+  color: #ffffff;
+}
+
+
+header {
+  text-align: center;
+  color: #00bcd4;
+}
+
+.search-bar {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.current-weather,
+.weekly-forecast {
+  margin: 20px 0;
+}
+
+.current-weather {
+  text-align: center;
+}
+
+.weekly-forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #bdbdbd; 
+}
+.weekly-forecast-title {
+  text-align: center;
+}
+.weekly-forecast > div {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: #333333;
+  box-shadow: 0 0 5px rgb(32, 0, 62); 
+  border-radius: 8px; 
+}
+
+.weekly-forecast img {
+  max-width: 50px;
+  margin-top: 10px;
+}
+
